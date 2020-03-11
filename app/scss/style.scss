@@ -2,8 +2,129 @@
 @import "global";
 @import "fonts";  
 @import "heading";  
- 
 
+ /*header-top  */
+	 .header-top{
+	 	padding: 20px 0;
+	 }
+	 .header-top__inner{
+	 	display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+		height: 45px;
+	 }
+	 .logo{
+	 	padding-left: 10px;
+	 	display: flex;
+	 }
+	 .logo__info{
+	 	padding-left: 30px;
+	 	width: 200px;
+	 	font-size: 15px;
+	 	font-weight: 400;
+	 	line-height: 17px;
+	 	display: flex;
+	    align-items: center;
+	 	
+	 }
+	 .header-top__contacts{
+	 	display: flex;
+	 	flex-direction: column;
+	 	margin-left: auto;
+	 	padding-right: 30px;
+	 	text-align: right;
+	 	font-size: 13px;
+	 	font-weight: 300;
+	 	
+	 	a{
+	 		font-size: 17px;
+	 		font-weight: bold;
+	 	}
+	 }
+	 .btn{
+	 	padding: 15px 28px;
+	    border-radius: 22px;
+	    border: none;
+	    cursor: pointer;
+	    outline: none;
+	    
+	    &--style{
+	    	color: #FFF;
+	    	background-color: $bgBtn;
+	    	font-weight: bold;
+	    	filter: drop-shadow(2px 4px 6px black);
+	    	transition: all .3s;
+	    	text-transform: uppercase;
+	    }
+
+	    &:hover{
+	    	filter: none;
+	    }
+	 }
+ /*header-top-end  */
+ 
+/* header */
+	.header{
+		min-height: 685px;
+		background: #ffffff;
+		background: -moz-linear-gradient(top, #ffffff 0%, #fcfefd 50%, #f1fbf7 100%);
+		background: -webkit-linear-gradient(top, #ffffff 0%,#fcfefd 50%,#f1fbf7 100%);
+		background: linear-gradient(to bottom, #ffffff 0%,#fcfefd 50%,#f1fbf7 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1fbf7',GradientType=0 );
+	}
+	.header__inner{
+		display: flex;
+        justify-content: space-around;
+	}
+	.header__box{
+		max-width: 550px;
+		width: 100%;
+		margin-left: 100px;
+		
+		.header__title{
+			font-family: 'Roboto Slab', serif;
+			font-size: 57px;
+			line-height: 118px;
+			font-weight: bold;
+		}
+		.header__subtitle{
+			font-family: 'Roboto Slab', serif;
+			font-size: 30px;
+			line-height: 40px;
+			font-weight: bold;
+			margin-bottom: 80px;
+		}
+	}
+	.textBox__inner{
+		display: flex;
+	    align-items: center;
+		margin-bottom: 30px;
+	}
+	.textBox-wrap{
+		display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        
+        .textBox__title{
+        	font-size: 18px;
+        	line-height: 22px;
+        }
+        .textBox__subtitle{
+        	font-weight: 300;
+        	line-height: 20px;
+        }
+	}
+	.header__box-img{
+		background-image: url(../images/bg/header_foto_bg.png);
+		background-repeat: no-repeat;
+		background-position: right center;
+        background-size: content;
+        width: 100%;
+        height: 685px;
+	}
+
+	 
+/* header-end */
 
  
 
