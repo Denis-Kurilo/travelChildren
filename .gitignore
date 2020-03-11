@@ -1,0 +1,11 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+.vs
+
+node_modules/
+Pattern/
+pattern/
+app/bower/
+app/css/
+dist/
