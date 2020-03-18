@@ -50,3 +50,18 @@ body{
   padding: 0 15px;
 }
 
+.container-fluid{
+  
+  width: 100%;
+  padding: 0 15px;
+  
+  &--style-r{
+    max-width: 1520px;
+    margin-left: auto;
+  }
+  &--style-l{
+    max-width: 1520px;
+    margin-right: auto;
+  }
+}
+
